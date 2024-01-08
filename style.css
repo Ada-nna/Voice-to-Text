@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+   /* background: url(./background.jpg) center center/cover no-repeat ; */
+    background-color: black;
+}
+
+.container{
+    border: 1px solid #A9A9A9;
+    height: 100vh;
+    width: 700px;
+    margin-left: 700px;
+    background-color: #A9A9A9;
+}
+
+h1{
+    font-size: 48px;
+    margin-left: 160px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 2px black;
+    color: #195180;
+}
+#to{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.icons{
+    border: none;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 250px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #195180;
+    box-shadow: 3px 3px 10px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    background-color: rgb(62, 183, 62);
+    transform: scale(1.2);
+}
+
+.icons span{
+    font-size: 8em;
+    color: white;
+    font-weight: 900;
+}
+
+p{
+    margin-top: 50px;
+    margin-left: 250px;
+    font-size: 30px;
+    font-weight: 700;
+    font-weight: #ffffff;
+    text-shadow: 1px 1px 3px black;
+    color: white;
+}
+
+textarea{
+    height: 350px;
+    width: 550px;
+    margin-top: 50px;
+    outline: none;
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 75px;
+    position: relative;
+    background-color: #195180;
+    color: #ffffff;
+    box-shadow: 2px 2px 7px black;
+    border: 0;
+}
+
+#one{
+    position: absolute;
+    bottom: 180px;
+    left: 795px;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #195180;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A9A9A9;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
+
+#one:hover{
+    transform: scale(0.8);
+}
+
+#two{
+    position: absolute;
+    bottom: 180px;
+    left: 1245px;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #195180;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A9A9A9;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
+
+#two:hover{
+    transform: scale(0.8);
+}
+
+.stopSign{
+    margin-top: 30px;
+    border: 1px solid;
+    height: 80px;
+    width: 100px;
+    border-radius: 2%;
+    clip-path: polygon(50% 0, 100% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    background-color: #195180;
+    cursor: pointer;
+}
+
+.stopSign:hover{
+    transform: scale(1.2);
+}
+
+.stopSign span{
+    font-size: 2em;
+    font-weight: 900;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+#stopSymbol:hover{
+    color: red;
+}

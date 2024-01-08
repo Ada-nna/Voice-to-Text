@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice-to-Text using JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Speech <span id="to">to</span> Text</h1>
+
+        <div class="icons">
+
+            <span class="material-symbols-outlined" id="mic">mic</span>
+        
+        </div>
+
+        <p>Tap to record</p>
+
+        <section>
+            <textarea name="textBox" id="textBox" cols="40" rows="10"></textarea>
+            <div id="oneTwo">
+                <span class="material-symbols-outlined" id="one">content_copy</span>
+                <span class="material-symbols-outlined" id="two">delete</span>
+            </div>
+        
+        </section>
+
+        <div class="stopSign">
+            <span class="material-symbols-outlined" id="stopSymbol">pan_tool_alt</span>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
